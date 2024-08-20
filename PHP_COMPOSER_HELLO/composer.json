@@ -1,0 +1,19 @@
+{
+  "name": "fitrahrahmadhani/belajar-php-composer-hello",
+  "description": "Library Composer Hello",
+  "type": "library",
+  "authors": [
+    {
+      "name": "fitrahRahmadhani",
+      "email": "2131710092@student.polinema.ac.id"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "FitrahRahmadhani\\Belajar\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "fitrahrahmadhani/belajar-php-composer",
+  "description": "Belajar PHP Composer",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Fitrahrahmadhani\\BelajarPhpComposer\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "fitrahRahmadhani",
+      "email": "2131710092@student.polinema.ac.id"
+    }
+  ],
+  "require": {
+    "monolog/monolog": "^3.7"
+  }
+}
